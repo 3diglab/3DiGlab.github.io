@@ -415,8 +415,8 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/daniele_baieri/";
-            },},{id: "people-",
-          title: '',
+            },},{id: "people-filippo-maggioli",
+          title: 'Filippo_maggioli',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/filippo_maggioli/";
