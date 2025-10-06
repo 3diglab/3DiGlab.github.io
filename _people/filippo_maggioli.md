@@ -12,16 +12,16 @@ image: filippo_maggioli_pic.jpg
     # the commented lines are the default social media links supported by the template
     # the socials will be displayed in the order they are defined here
 
-    # personal_page: # your personal page
+    personal_page: https://filippomaggioli.com/
     # acm_id: # your dl.acm.org/profile/id
     # blogger_url: # your blogger URL
     # bluesky_url: # your bluesky URL
-    # dblp_url: # your DBLP profile url
+    dblp_url: 289/6307
     # discord_id: # your discord id (18-digit unique numerical identifier)
-    # email: # your email address
+    email: maggioli.filippo@gmail.com
     # facebook_id: # your facebook id
     # flickr_id: # your flickr id
-    # github_username: # your GitHub user name
+    github_username: filthynobleman
     # gitlab_username: # your GitLab user name
     # ieee_id: # your ieeexplore.ieee.org/author/id
     # inspirehep_id: # Inspire HEP author ID
@@ -34,15 +34,15 @@ image: filippo_maggioli_pic.jpg
     # linkedin_username: # your LinkedIn user name
     # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
     # medium_username: # your Medium username
-    # orcid_id: # your ORCID ID
+    orcid_id: 0000-0001-8008-8468
     # osf_id: # your OSF ID
     # pinterest_id: # your pinterest id
     # publons_id: # your ID on Publons
     # quora_username: # your Quora username
     # research_gate_profile: # your profile on ResearchGate
     # rss_icon: true # comment this line to hide the RSS icon
-    # scholar_userid: # your Google Scholar ID
-    # scopus_id: # your profile on Scopus
+    scholar_userid: VN1fbwUAAAAJ
+    scopus_id: 57216313662
     # semanticscholar_id: # your Semantic Scholar ID
     # spotify_id: # your spotify id
     # stackoverflow_id: # your stackoverflow id
@@ -61,3 +61,6 @@ image: filippo_maggioli_pic.jpg
         # title: Custom Social
         # url: https://www.alberteinstein.com/
 ---
+
+Filippo Maggioli is a Tenured Assistant Professor at Pegaso University. Previously, he was Postdoctoral Researcher at the University of Milano-Bicocca in the 3DiG research lab led by Simone Melzi, a Postdoctoral Researcher at Sapienza - University of Rome in the GLADIA research lab led by Emanuele Rodolà, and a Research Intern at the King Abdullah University of Science and Technology (KAUST) in the VCC research lab led by Peter Wonka. Filippo received his Ph.D. in Computer Science at Sapienza -- University of Rome (2023), where he also graduated in Computer Science (2019).
+Filippo works on geometry processing, spectral geometry, and 3D shape analysis, but he is an active researcher also in other fields of computer graphics, such as procedural shading and physical simulations.
