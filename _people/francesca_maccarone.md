@@ -7,7 +7,7 @@ role_level: 1
 #     <p>More info line one</p>
 #     <p>More info line two</p>
 image: fancesca_maccarone_pic.jpg
-# socials:
+socials:
     # this list contains the social media links and usernames of the author
     # the commented lines are the default social media links supported by the template
     # the socials will be displayed in the order they are defined here
@@ -18,10 +18,10 @@ image: fancesca_maccarone_pic.jpg
     # bluesky_url: # your bluesky URL
     # dblp_url: # your DBLP profile url
     # discord_id: # your discord id (18-digit unique numerical identifier)
-    # email: # your email address
+    email: f.maccarone1@campus.unimib.it # your email address
     # facebook_id: # your facebook id
     # flickr_id: # your flickr id
-    # github_username: # your GitHub user name
+    github_username: Franca-exe # your GitHub user name
     # gitlab_username: # your GitLab user name
     # ieee_id: # your ieeexplore.ieee.org/author/id
     # inspirehep_id: # Inspire HEP author ID
@@ -34,7 +34,7 @@ image: fancesca_maccarone_pic.jpg
     # linkedin_username: # your LinkedIn user name
     # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
     # medium_username: # your Medium username
-    # orcid_id: # your ORCID ID
+    orcid_id: 0009-0004-6221-2671 # your ORCID ID
     # osf_id: # your OSF ID
     # pinterest_id: # your pinterest id
     # publons_id: # your ID on Publons
@@ -52,7 +52,7 @@ image: fancesca_maccarone_pic.jpg
     # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
     # wikidata_id: # your wikidata id
     # wikipedia_id: # your wikipedia id (Case sensitive)
-    # work_url: # work page URL
+    work_url: https://en.unimib.it/francesca-maccarone # work page URL
     # x_username: # your X handle
     # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
     # zotero_username: # your zotero username
@@ -61,3 +61,5 @@ image: fancesca_maccarone_pic.jpg
         # title: Custom Social
         # url: https://www.alberteinstein.com/
 ---
+
+Francesca Maccarone is a PhD researcher in Computer Science with a background in in Biomedical Engineering (B.Sc and M.Sc from Polytechnic University of Milan). She holds a cofoundend position shared by the 3DiG research lab under the supervision of Prof. Simone Melzi and the Cesne lab at the Eugenio Medea Research Institute (Bosisio Parini, LC). Her research interests center on shape analysis and machine learning, with applications in medical imaging and a particular emphasis on pediatric neuroimaging. She has a deep fascination for scientific communication and strongly believe in the democratization of scientific knowledge.
