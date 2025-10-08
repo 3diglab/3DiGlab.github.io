@@ -6,7 +6,7 @@ role_level: 1
 # more_info: > # uncomment these lines to add more info like an address
 #     <p>More info line one</p>
 #     <p>More info line two</p>
-image: fancesca_maccarone_pic.jpg
+image: Francesca_Maccarone.png
 socials:
     # this list contains the social media links and usernames of the author
     # the commented lines are the default social media links supported by the template
