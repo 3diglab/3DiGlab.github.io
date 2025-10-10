@@ -2,6 +2,18 @@
 <hr>
 <header class="post-header">
     <h2 class="post-title"><i>{{ thesis.title }}</i></h2>
+    <div class="thesis-tags-list">
+        {% if thesis.assigned %}
+            <div class="thesis-tag assigned">ASSIGNED</div>
+        {% else %}
+            <div class="thesis-tag available">AVAILABLE</div>
+        {% endif %}
+        {% if thesis.tags and thesis.tags.size > 0 %}
+            {% for tag in thesis.tags %}
+                <div class="thesis-tag">{{ tag }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
 </header>
 <article>
     <div class="post float-left">

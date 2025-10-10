@@ -4,7 +4,13 @@ contact_name: supervisor name
 contact_email: me@email.com
 date: 2025-10-01 00:00:00-0000
 assigned: false
-#image: 3DiG.png # uncomment to show the image from assets/img/
+# image: 3DiG.png # uncomment to show the image from assets/img/
+# tags:
+#     - bachelor's
+#     - master's
+#     - computer vision
+#     - geometric deep learning
+
 ---
 This is an example of a thesis descripion
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida et arcu eget bibendum. Ut tellus odio, pellentesque non fermentum sed, hendrerit eu erat. Nam volutpat ornare nisl, vitae rutrum quam dictum aliquet. Integer eu elit rhoncus, porttitor neque vitae, bibendum odio. In sed lacus at orci tempus viverra ac vitae nibh. Duis et sagittis ex. Sed at consequat tortor.

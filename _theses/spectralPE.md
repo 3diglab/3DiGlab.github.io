@@ -4,7 +4,12 @@ contact_name: Simone Melzi
 contact_email: simone.melzi@unimib.it
 date: 2025-10-01 00:00:00-0000
 assigned: false
-#image: 3DiG.png # uncomment to show the image from assets/img/
+# image: 3DiG.png # uncomment to show the image from assets/img/
+tags:
+#     - bachelor's
+    - master's
+#     - computer vision
+    - geometric deep learning
 ---
 This thesis investigates the application of spectral graph properties—specifically the Fiedler vector and eigenvector centrality—as positional encodings in Transformer and Graph Neural Network (GNN) architectures for graph and mesh data. The study will examine two approaches: utilizing the absolute values of the Fiedler vector as features and employing it to order vertices, thereby defining a canonical node sequence. Additionally, eigenvector centrality will be explored as an alternative positional encoding method.
 
