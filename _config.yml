@@ -198,6 +198,8 @@ exclude:
   - _pages/cv
   - _pages/blog
   - _people/new_person.md
+  - _news/announcement_1
+  - _news/announcement_2
 
 keep_files:
   - CNAME
