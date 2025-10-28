@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-thesis-proposals",
+          title: "Thesis proposals",
+          description: "These are our thesis proposals for bachelor and master&#39;s degree students. Feel free to send us an email if you&#39;re interested.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/theses/index.html";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -482,6 +489,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "theses-efficient-shape-matching-via-jpeg-based-compression-of-correspondence-matrices",
+          title: 'Efficient Shape Matching via JPEG-Based Compression of Correspondence Matrices',
+          description: "",
+          section: "Theses",handler: () => {
+              window.location.href = "/theses/fmapJPEG/";
+            },},{id: "theses-leveraging-fiedler-vector-and-eigenvector-centrality-for-positional-encoding-in-graph-and-mesh-neural-networks",
+          title: 'Leveraging Fiedler Vector and Eigenvector Centrality for Positional Encoding in Graph and Mesh...',
+          description: "",
+          section: "Theses",handler: () => {
+              window.location.href = "/theses/spectralPE/";
             },},{
         id: 'social-github',
         title: 'GitHub',
