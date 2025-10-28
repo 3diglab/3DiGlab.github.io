@@ -1,0 +1,33 @@
+{% assign thesis = include.data %}
+<hr>
+<header class="post-header">
+    <h2 class="post-title"><i>{{ thesis.title }}</i></h2>
+    <div class="thesis-tags-list">
+        {% if thesis.assigned %}
+            <div class="thesis-tag assigned">ASSIGNED</div>
+        {% else %}
+            <div class="thesis-tag available">AVAILABLE</div>
+        {% endif %}
+        {% if thesis.tags and thesis.tags.size > 0 %}
+            {% for tag in thesis.tags %}
+                <div class="thesis-tag">{{ tag }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+</header>
+<article>
+    <div class="post float-left">
+    {% if thesis.image %}
+        {% assign image_path = thesis.image | prepend: 'assets/img/' %}
+        {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+        {% include figure.liquid loading="eager" path=image_path class='img-fluid z-depth-1 rounded' sizes=sizes alt=thesis.image zoomable=true %}
+    {% endif %}
+    </div>
+
+    <div class="clearfix">
+    {% if thesis.content %}
+        {{ thesis.content }}
+    {% endif %}
+    </div>
+    <p class="post-meta"> Supervisor: {{ thesis.contact_name }} | email: <a href={{ thesis.contact_email | prepend: 'mailto:' }}>{{ thesis.contact_email }}</a></p>
+</article>
