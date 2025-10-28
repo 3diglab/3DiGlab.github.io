@@ -499,6 +499,11 @@ ninja.data = [{
           description: "",
           section: "Theses",handler: () => {
               window.location.href = "/theses/spectralPE/";
+            },},{id: "theses-3d-shape-visualization-and-feature-function-mapping-framework",
+          title: '3D Shape Visualization and Feature Function Mapping Framework',
+          description: "",
+          section: "Theses",handler: () => {
+              window.location.href = "/theses/3D_visualization/";
             },},{
         id: 'social-github',
         title: 'GitHub',
