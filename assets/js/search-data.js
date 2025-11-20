@@ -504,6 +504,16 @@ ninja.data = [{
           description: "",
           section: "Theses",handler: () => {
               window.location.href = "/theses/3D_visualization/";
+            },},{id: "theses-reconstruction-and-classification-of-3d-brain-shapes-using-data-driven-and-handcrafted-features",
+          title: 'Reconstruction and Classification of 3D Brain Shapes Using Data-Driven and Handcrafted Features',
+          description: "",
+          section: "Theses",handler: () => {
+              window.location.href = "/theses/medical_shape/";
+            },},{id: "theses-interactive-3d-visualization-of-anatomical-volumes-and-shapes-python-modules-and-blender-integration",
+          title: 'Interactive 3D Visualization of Anatomical Volumes and Shapes - Python Modules and Blender...',
+          description: "",
+          section: "Theses",handler: () => {
+              window.location.href = "/theses/medical_visualization/";
             },},{
         id: 'social-github',
         title: 'GitHub',
