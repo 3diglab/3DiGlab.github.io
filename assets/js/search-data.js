@@ -429,8 +429,8 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/giorgio_longari/";
-            },},{id: "people-giulio-vigano",
-          title: 'Giulio_vigano',
+            },},{id: "people-",
+          title: '',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/giulio_vigano/";
