@@ -12,16 +12,16 @@ image: giulio_vigano.jpg
     # the commented lines are the default social media links supported by the template
     # the socials will be displayed in the order they are defined here
 
-    # personal_page: # your personal page
+    personal_page: gviga.github.io
     # acm_id: # your dl.acm.org/profile/id
     # blogger_url: # your blogger URL
     # bluesky_url: # your bluesky URL
     # dblp_url: # your DBLP profile url
     # discord_id: # your discord id (18-digit unique numerical identifier)
-    # email: # your email address
+    email: giulio.vigan@gmail.com
     # facebook_id: # your facebook id
     # flickr_id: # your flickr id
-    # github_username: # your GitHub user name
+    github_username: gviga
     # gitlab_username: # your GitLab user name
     # ieee_id: # your ieeexplore.ieee.org/author/id
     # inspirehep_id: # Inspire HEP author ID
@@ -31,10 +31,10 @@ image: giulio_vigano.jpg
     # lastfm_id: # your lastfm id
     # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
     # leetcode_id: # your LeetCode id
-    # linkedin_username: # your LinkedIn user name
+    linkedin_username: gvigano
     # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
     # medium_username: # your Medium username
-    # orcid_id: # your ORCID ID
+    orcid_id: https://orcid.org/0009-0000-7263-2160
     # osf_id: # your OSF ID
     # pinterest_id: # your pinterest id
     # publons_id: # your ID on Publons
@@ -61,5 +61,5 @@ image: giulio_vigano.jpg
         # title: Custom Social
         # url: https://www.alberteinstein.com/
 ---
-Giulio Viganò is a PhD researcher in Computer Science with a background in Mathematics (M.Sc., University of Milan, recipient of the EG-Italy Best MSc Thesis Award). His work revolves around geometry processing and machine learning. He is particularly interested in developing machine learning techniques for spectral geometry processing, as well as in utilizing spectral geometry to enhance machine learning. He has collaborated with researchers at École Polytechnique and UC Santa Barbara.
-He is fascinated by the elegance of well-done things — from mathematics to carefully shaped ideas — and by the clarity that emerges from simplicity and structure.
+Giulio Viganò is a PhD researcher in Computer Science with a background in Mathematics (M.Sc., University of Milan, recipient of the EG-Italy Best MSc Thesis Award). His work revolves around geometry processing and machine learning. He is particularly interested in developing machine learning techniques for spectral geometry processing, as well as in utilizing spectral geometry to enhance neural architecture understanding.
+He is fascinated by complex interactions and by the human attempt to make sense of them through simplicity and structure, whether in mathematics, communication, or football.
