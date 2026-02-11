@@ -514,6 +514,21 @@ ninja.data = [{
           description: "",
           section: "Theses",handler: () => {
               window.location.href = "/theses/medical_visualization/";
+            },},{id: "theses-attention-meets-discrete-evolution-geometry-aware-feature-extraction-on-3d-shapes",
+          title: 'Attention Meets Discrete Evolution: Geometry-Aware Feature Extraction on 3D Shapes',
+          description: "",
+          section: "Theses",handler: () => {
+              window.location.href = "/theses/attentive_dep/";
+            },},{id: "theses-deep-learning-for-volumetric-functional-maps",
+          title: 'Deep Learning for Volumetric Functional Maps',
+          description: "",
+          section: "Theses",handler: () => {
+              window.location.href = "/theses/deep_volumetric_fmap/";
+            },},{id: "theses-a-multi-source-human-point-cloud-dataset-for-shape-correspondence-benchmarking",
+          title: 'A Multi-Source Human Point Cloud Dataset for Shape Correspondence Benchmarking',
+          description: "",
+          section: "Theses",handler: () => {
+              window.location.href = "/theses/point_cloud_dataset/";
             },},{
         id: 'social-github',
         title: 'GitHub',
