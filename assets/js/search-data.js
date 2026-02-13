@@ -530,7 +530,7 @@ ninja.data = [{
           section: "Theses",handler: () => {
               window.location.href = "/theses/point_cloud_dataset/";
             },},{id: "theses-from-noise-to-image-a-study-into-the-impact-of-noise-in-image-generation",
-          title: 'From Noise to Image: a study into the Impact of Noise in Image...',
+          title: 'From Noise to Image: a Study into the Impact of Noise in Image...',
           description: "",
           section: "Theses",handler: () => {
               window.location.href = "/theses/noise_image_generation/";
