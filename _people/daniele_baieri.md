@@ -2,6 +2,7 @@
 name: Daniele Baieri
 role: Post Doc
 role_level: 3
+ex_member: true
 # ex_member: true # uncomment to move profile to the bottom of the list
 # more_info: > # uncomment these lines to add more info like an address
 #     <p>More info line one</p>
