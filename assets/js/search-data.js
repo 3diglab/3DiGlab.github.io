@@ -540,6 +540,11 @@ ninja.data = [{
           description: "",
           section: "Theses",handler: () => {
               window.location.href = "/theses/noise_image_generation/";
+            },},{id: "theses-serialization-based-methods-and-positional-encoding-for-3d-point-cloud-shape-matching",
+          title: 'Serialization-Based Methods and Positional Encoding for 3D Point Cloud Shape Matching',
+          description: "",
+          section: "Theses",handler: () => {
+              window.location.href = "/theses/SerializationPC/";
             },},{
         id: 'social-github',
         title: 'GitHub',
