@@ -407,7 +407,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-volumetric-functional-maps-f-maggioli-s-melzi-m-livesu-has-been-accepted-at-cvpr-2026-smiley-tada-page-facing-up-paper-computer-code",
           title: 'Our paper “Volumetric Functional Maps” (F. Maggioli, S. Melzi, M. Livesu) has been...',
           description: "",
-          section: "News",},{id: "news-our-paper-blending-concepts-with-text-to-image-diffusion-models-l-olearo-g-longari-a-raganato-r-penaloza-s-melzi-has-been-accepted-at-cvpr-2026-smiley-tada-page-facing-up-paper-computer-code",
+          section: "News",},{id: "news-our-paper-blending-concepts-with-text-to-image-diffusion-models-l-olearo-g-longari-a-raganato-r-penaloza-s-melzi-has-been-accepted-for-publication-in-discover-artificial-intelligence-journal-tada-page-facing-up-paper-computer-code",
           title: 'Our paper “Blending Concepts with Text-to-Image Diffusion Models” (L. Olearo, G. Longari, A....',
           description: "",
           section: "News",},{id: "people-alessandro-riva",
