@@ -36,8 +36,10 @@ latest_posts:
   <footer><em>Three pillars. One vision. We DIG.</em></footer>
 </blockquote>
 
-The 3DiG laboratory was created to explore, develop, and apply innovative methodologies in the fields of digital geometry and advanced machine learning techniques for geometric data and geometric property exploitation.
-Research activities focus on:
+The 3DiG laboratory was created to explore, develop, and apply innovative methodologies in the fields of digital geometry and advanced machine learning techniques for geometric data and geometric property exploitation. 
+
+The research activities are led by the PI [Simone Melzi](https://sites.google.com/site/melzismn), Associate Professor at the University of Milano-Bicocca, and are focused on:
+
 - Geometry processing: Algorithms and techniques for processing, manipulating, and optimizing three-dimensional shapes and complex geometric data.
 
 - Shape analysis involves the analysis, comparison, and classification of three-dimensional shapes, with applications in various scientific and industrial fields.
