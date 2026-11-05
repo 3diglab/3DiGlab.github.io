@@ -31,7 +31,7 @@ socials:
     # lastfm_id: # your lastfm id
     # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
     # leetcode_id: # your LeetCode id
-    linkedin_username: simone-melzi
+    linkedin_username: simone-melzi-7ba104429
     # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
     # medium_username: # your Medium username
     orcid_id: 0000-0003-2790-9591 # your ORCID ID
