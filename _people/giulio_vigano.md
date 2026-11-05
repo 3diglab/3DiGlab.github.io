@@ -31,7 +31,7 @@ socials:
     # lastfm_id: # your lastfm id
     # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
     # leetcode_id: # your LeetCode id
-    linkedin_username: giulio-viganò
+    linkedin_username: https://www.linkedin.com/in/giulio-vigan%C3%B2/
     # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
     # medium_username: # your Medium username
     orcid_id: [https://orcid.org/0009-0000-7263-2160](https://orcid.org/0009-0000-7263-2160)
