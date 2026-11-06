@@ -12,7 +12,7 @@ socials:
     # the commented lines are the default social media links supported by the template
     # the socials will be displayed in the order they are defined here
     
-    personal_page: [gviga.github.io](https://gviga.github.io/)
+    personal_page: https://gviga.github.io/
     # acm_id: # your dl.acm.org/profile/id
     # blogger_url: # your blogger URL
     # bluesky_url: # your bluesky URL
@@ -31,10 +31,10 @@ socials:
     # lastfm_id: # your lastfm id
     # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
     # leetcode_id: # your LeetCode id
-    linkedin_username: https://www.linkedin.com/in/giulio-vigan%C3%B2/
+    linkedin_username: giulio-viganò
     # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
     # medium_username: # your Medium username
-    orcid_id: [https://orcid.org/0009-0000-7263-2160](https://orcid.org/0009-0000-7263-2160)
+    orcid_id: 0009-0000-7263-2160
     # osf_id: # your OSF ID
     # pinterest_id: # your pinterest id
     # publons_id: # your ID on Publons

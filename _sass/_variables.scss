@@ -37,6 +37,9 @@ $DiG-blue-color-dark: #136c8eff;
 $DiG-orange-color: #a07347ff;
 $DiG-orange-color-dark: #845629ff;
 
+// Max content width (overridden by site.max_width via gem's main.scss)
+$max-content-width: 930px !default;
+
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);

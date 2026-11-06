@@ -34,7 +34,7 @@ socials:
     linkedin_username: lorenzo-olearo
     # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
     # medium_username: # your Medium username
-    orcid_id: https://orcid.org/0009-0000-7290-3549
+    orcid_id: 0009-0000-7290-3549
     # osf_id: # your OSF ID
     # pinterest_id: # your pinterest id
     # publons_id: # your ID on Publons
