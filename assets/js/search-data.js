@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/theses/index.html";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-marimo-snippets",
+        
+          title: "a post with marimo snippets",
+        
+        description: "running Python in the browser with marimo",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/marimo/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -239,11 +250,11 @@ ninja.data = [{
             window.location.href = "/blog/2023/videos/";
           
         },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
+      },{id: "post-displaying-beautiful-interactive-tables",
         
-          title: "displaying beautiful tables with Bootstrap Tables",
+          title: "displaying beautiful interactive tables",
         
-        description: "an example of how to use Bootstrap Tables",
+        description: "an example of how to use interactive tables in al-folio",
         section: "Posts",
         handler: () => {
           
@@ -270,6 +281,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2022/giscus-comments/";
+          
+        },
+      },{id: "post-یک-نوشتهٔ-راست-چین",
+        
+          title: "یک نوشتهٔ راست‌چین",
+        
+        description: "نمونه‌ای از پشتیبانی زبان‌های راست‌چین",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/rtl/";
           
         },
       },{id: "post-a-post-with-redirect",
@@ -394,6 +416,9 @@ ninja.data = [{
           section: "News",},{id: "news-fuse-a-flow-based-mapping-between-shapes-by-l-olearo-g-viganò-d-baieri-f-maggioli-s-melzi-has-been-accepted-at-eccv-2026-computer-code",
           title: 'FUSE: A Flow-based Mapping Between Shapes, by L. Olearo, G. Viganò, D. Baieri,...',
           description: "",
+          section: "News",},{id: "news-spectral-geometry-of-attention-from-information-routing-to-uncertainty-by-g-viganò-s-melzi-m-ovsjanikov-has-been-accepted-at-neurips-2026",
+          title: 'Spectral Geometry of Attention: From Information Routing to Uncertainty, by G. Viganò, S....',
+          description: "",
           section: "News",},{id: "people-alessandro-riva",
           title: 'Alessandro_riva',
           description: "",
@@ -479,6 +504,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teachings-data-science-fundamentals",
+          title: 'Data Science Fundamentals',
+          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/data-science-fundamentals/";
+            },},{id: "teachings-introduction-to-machine-learning",
+          title: 'Introduction to Machine Learning',
+          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{id: "theses-efficient-shape-matching-via-jpeg-based-compression-of-correspondence-matrices",
           title: 'Efficient Shape Matching via JPEG-Based Compression of Correspondence Matrices',
           description: "",
