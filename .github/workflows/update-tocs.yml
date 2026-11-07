@@ -48,27 +48,6 @@ jobs:
           done
           rm gh-md-toc
 
-      # gh-md-toc and Prettier disagree about escaping in link text: the TOC
-      # generator emits `_config.yml` where Prettier requires `\_config.yml`.
-      # Without this step the auto-commit lands unformatted and prettier.yml
-      # immediately goes red on main. Prettier gets the last word.
-      - name: Normalize TOC formatting 🎨
-        env:
-          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        run: |
-          # `npm ci` installs from the lockfile and does not touch package.json or
-          # package-lock.json. `npm install --save-dev` would rewrite the caret
-          # ranges to exact pins and upgrade them, and because the auto-commit step
-          # below sets no file_pattern (default `.`), those dependency changes would
-          # be committed to main under the message "Auto update markdown TOC".
-          npm ci
-          for file in ${ALL_CHANGED_FILES}; do
-            if [[ "$file" != *.md ]]; then
-              continue
-            fi
-            npx prettier --write "$file"
-          done
-
       - name: Commit changes
         if: steps.changed-files.outputs.any_changed == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5.0.1
