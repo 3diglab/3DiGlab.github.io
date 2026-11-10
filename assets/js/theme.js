@@ -280,6 +280,25 @@ let determineComputedTheme = () => {
 let initTheme = () => {
   let themeSetting = determineThemeSetting();
 
+  // al_folio_core v1 ships main.css as a precompiled Tailwind asset, so local
+  // _sass/_themes.scss overrides are never recompiled into the served CSS.
+  // Inject the two patches that file was meant to deliver:
+  //   1. Bootstrap sets color:#212529 on .table; that makes all table text
+  //      invisible on the dark body background before no_defer.js adds .table-dark.
+  //   2. gem v1.0.15 still ships old padding-left/padding-top offsets on the
+  //      theme-toggle icons instead of display:inline-block with no offsets.
+  if (!document.getElementById("theme-compat-styles")) {
+    const style = document.createElement("style");
+    style.id = "theme-compat-styles";
+    style.textContent =
+      'html[data-theme="dark"] .table { color: var(--global-text-color); }\n' +
+      'html[data-theme-setting="system"] #light-toggle-system,' +
+      'html[data-theme-setting="dark"] #light-toggle-dark,' +
+      'html[data-theme-setting="light"] #light-toggle-light' +
+      "{ padding-left: 0 !important; padding-top: 0 !important; display: inline-block !important; }";
+    document.head.appendChild(style);
+  }
+
   setThemeSetting(themeSetting);
 
   // Add event listener to the theme toggle button.
