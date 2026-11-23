@@ -459,6 +459,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/simone_melzi/";
+            },},{id: "people-simone-pedico",
+          title: 'Simone_pedico',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/simone_pedico/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
